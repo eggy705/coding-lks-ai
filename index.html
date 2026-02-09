@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jejak Proklamasi 1945</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="progress-bar" id="scrollProgress"></div>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>INDONESIA MERDEKA</h1>
+            <p>Menelusuri Detik-Detik Proklamasi 17 Agustus 1945</p>
+            <button onclick="scrollToContent()">Mulai Penjelajahan</button>
+        </div>
+    </section>
+
+    <main class="timeline-container" id="main-content">
+        <div class="timeline-line"></div>
+
+        <div class="event-card left" data-info="16 Agustus 1945: Soekarno dan Hatta diculik ke Rengasdengklok oleh golongan muda untuk mempercepat proklamasi.">
+            <div class="content">
+                <h2>01. Peristiwa Rengasdengklok</h2>
+                <p>Golongan muda mendesak kemerdekaan tanpa pengaruh Jepang.</p>
+                <span class="date">16 Agustus 1945</span>
+            </div>
+        </div>
+
+        <div class="event-card right" data-info="Malam hari di rumah Laksamana Maeda, naskah proklamasi dirumuskan oleh Soekarno, Hatta, dan Ahmad Soebardjo.">
+            <div class="content">
+                <h2>02. Perumusan Teks</h2>
+                <p>Ditulis tangan oleh Soekarno dan diketik oleh Sayuti Melik.</p>
+                <span class="date">17 Agustus 1945 (Dini Hari)</span>
+            </div>
+        </div>
+
+        <div class="event-card left" data-info="Tepat pukul 10.00 WIB di Jl. Pegangsaan Timur No. 56, Indonesia resmi menyatakan kemerdekaannya.">
+            <div class="content">
+                <h2>03. Pembacaan Proklamasi</h2>
+                <p>Momen sakral lahirnya bangsa Indonesia.</p>
+                <span class="date">17 Agustus 1945 (10:00 WIB)</span>
+            </div>
+        </div>
+    </main>
+
+    <div id="info-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Detail Sejarah</h3>
+            <p id="modal-text"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
